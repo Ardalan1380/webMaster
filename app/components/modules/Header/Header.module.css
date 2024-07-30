@@ -3,3 +3,12 @@
     background-size: cover;
     background-position: center;
   }
+
+  .menuContainer {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+  
+  .menuContainerOpen {
+    transform: translateX(0);
+  }
