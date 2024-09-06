@@ -42,7 +42,6 @@ function Projects() {
             centerMode={false}
             className=""
             containerClass="container"
-            dotListClass=""
             draggable
             focusOnSelect={false}
             infinite
@@ -57,7 +56,7 @@ function Projects() {
             rewindWithAnimation={false}
             rtl={false}
             shouldResetAutoplay
-            showDots
+            showDots={false}
             sliderClass=""
             slidesToSlide={1}
             swipeable

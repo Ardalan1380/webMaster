@@ -10,14 +10,16 @@ function Details() {
   return (
     <div className='my-10 flex w-[1200px] mx-auto justify-center max-[1200px]:w-[900px] max-[900px]:flex-col-reverse max-[900px]:items-center max-[900px]:w-[500px] max-[500px]:w-[380px]'>
         <div className='flex flex-col max-[900px]:items-center max-[900px]:w-[380px]'>
-            <div className='flex text-purple-700 w-[200px] items-center'>
-            <span className=''>test text text</span>
-            <hr className='w-[40%] mt-5 bg-purple-800' />
+            <div className='flex w-[350px] items-center'>
+            <span className='w-[70%] text-purple-200'>آستوریاکس چه هدفی دارد</span>
+            <hr className='w-[60%] mt-5 bg-purple-800' />
             </div>
             <h4 className='text-white text-[40px] w-[450px] font-bold max-[500px]:w-[350px] max-[500px]:text-[30px]'>
-                We Provide the Best Digital Market Services
+            ما در آستوریاکس دنبال چه اهدافی هستیم
             </h4>
-            <p className='w-[400px] max-[500px]:w-[350px] text-white'>Lorem ipsum dolor  amet, dolor  amet,dolor  amet,dolor  amet, consec amet, consec amet, consec amet, consec sit amet, consectetur adipsed turpis tincidunt id aliquet.</p>
+            <p className='w-[400px] max-[500px]:w-[350px] text-white'>
+            در آستوریاکس، هدف ما این است که کسب‌وکار شما را به سطحی بالاتر ارتقاء دهیم. با ارائه مشاوره‌های تخصصی و استراتژیک، شما را در مسیر موفقیت همراهی می‌کنیم تا با اطمینان و دید روشن به اهداف تجاری خود دست یابید. در این مسیر، تیم ما با بهره‌گیری از بهترین روش‌ها و ابزارهای روز دنیا، به شما کمک می‌کند تا از رقبای خود پیشی بگیرید.
+            </p>
 
             <div className='flex w-[400px] my-10 max-[400px]:w-[380px] max-[500px]:flex-col max-[500px]:items-center'>
                 <div className='w-[200px] bg-gray-700 p-1 rounded-lg max-[500px]:mb-4'>

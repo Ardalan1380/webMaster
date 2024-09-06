@@ -25,7 +25,7 @@ function HomePage() {
       case 'projects':
         projectsRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
-      case 'team':
+      case 'about':
         teamMemberRef.current.scrollIntoView({ behavior: 'smooth' });
         break;
       case 'services':
@@ -42,7 +42,7 @@ function HomePage() {
         <div ref={recommendRef}><Recommend /></div>
         <div ref={detailsRef}><Details /></div>
         <div ref={projectsRef}><Projects /></div>
-        <div ref={teamMemberRef}><TeamMember /></div>
+        {/* <div ref={teamMemberRef}><TeamMember /></div> */}
         <div ref={servicesRef}><Services /></div>
     </>
   )
